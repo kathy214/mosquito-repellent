@@ -1,0 +1,81 @@
+.view {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  // App 主题色变量可参考 https://developer.tuya.com/cn/miniapp/develop/ray/guide/theme/colors
+  background-color: var(--app-B1, #f6f7fb);
+  color: var(--app-B1-N1, rgba(0, 0, 0, 1));
+}
+.bgContent{
+  width: 100%;
+}
+
+.content {
+  .group{
+    background: #fff;
+    display: flex;
+    padding: 30rpx 0;
+    .groupItem{
+      flex: 1;
+      text-align: center;
+      .name{
+        width: 2em;
+        height: 80rpx;
+        word-break: break-all;
+        margin: 0 auto;
+        color: #5CA8DC;
+        font-size: 32rpx;
+      }
+      .text{
+        margin-top: 12rpx;
+        font-size: 28rpx;
+        .unit{
+          font-size: 24rpx;
+          color: #999;
+        }
+      }
+    }
+  }
+  .list{
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 24rpx;
+    padding: 24rpx;
+   .block{
+    background: #fff;
+    padding: 30rpx;
+    width: calc(50% - 14rpx);
+    box-sizing: border-box;
+    .btns{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+    }
+    .text{
+      margin-top: 40rpx;
+    }
+   } 
+  }
+  .water{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 54rpx;
+    .left{
+      display: flex;
+      align-items: center;
+      .icon{
+        width: 70rpx;
+      }
+      .text{
+        margin-left: 10rpx;
+      }
+    }
+  }
+}
+
