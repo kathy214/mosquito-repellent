@@ -35,7 +35,7 @@ export default (props) => {
               />
             </View>
             <Divider />
-            <View className={styles.tip}>注：关闭进水，打开所有前置过滤下面排水阀后启动！</View>
+            <View className={styles.tip}>注：先关闭供水阀门，打开全部前置过滤器底部排水阀，随后启动冬季排水功能，排水全程约20分钟，全程请勿断电。</View>
           </View>
         </View>
       </View>
